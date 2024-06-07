@@ -298,7 +298,7 @@ fun MySootheAppPortrait() {
 
 // Step: Bottom navigation - Material
 @Composable
-private fun SootheNavigationRail(modifier: Modifier = Modifier) {
+private fun SootheNavigationRail(modifier: Modifier = Modifier) {Scaffold
     NavigationRail(
         modifier = modifier.padding(start = 8.dp, end = 8.dp),
         containerColor = MaterialTheme.colorScheme.background
